@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5581ba37-f79a-4153-a006-d0996e41d46a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/EN_README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/v1.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/v1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="v1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/api/v1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="15" selection-start-column="15" selection-end-column="15" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="apidoc.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apidoc.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".php_cs.dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.php_cs.dist">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".phplint.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.phplint.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="checkCors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/checkCors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1444">
+              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckSign.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckSign.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+              <folding>
+                <element signature="e#39#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mini</find>
+      <find>tymon</find>
+      <find>auth</find>
+      <find>attempt</find>
+      <find>AUTH_GUARD</find>
+      <find>api.</find>
+      <find>apidoc</find>
+      <find>articl</find>
+      <find>syf_article_tags</find>
+      <find>syf_tags</find>
+      <find>array</find>
+      <find>cors</find>
+      <find>liyu001989</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>article_tags</replace>
+      <replace>tags</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php" />
+        <option value="$PROJECT_DIR$/app/helpers.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" />
+        <option value="$PROJECT_DIR$/config/jwt.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/config/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/auth.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Models/Post.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/V1/CategoryController.php" />
+        <option value="$USER_HOME$/Desktop/syf_article_tags.sql" />
+        <option value="$USER_HOME$/Desktop/syf_tags.sql" />
+        <option value="$PROJECT_DIR$/app/Models/ArticleTag.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/app/Models/Category.php" />
+        <option value="$PROJECT_DIR$/app/Models/Tag.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/V1/ArticleController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Article.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/V1/TagController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/checkCors.php" />
+        <option value="$PROJECT_DIR$/bootstrap/app.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/CheckSign.php" />
+        <option value="$PROJECT_DIR$/routes/api/v1.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/redis" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/routing" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/mail" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/palanik/lumen-cors" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/dingo/blueprint" />
+      <path value="$PROJECT_DIR$/vendor/dingo/api" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/liyu/dingo-serializer-switch" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="V1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="composer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="bootstrap/app.&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/bootstrap/app.php&#10;Art&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/app/Http/Controllers/Api/V1/ArticleController.php&#10;api&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/vendor/dingo/api/config/api.php&#10;we.&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/routes/web.php&#10;Ca&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/app/Models/Category.php&#10;.env&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/.env&#10;compo&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/composer.json&#10;Article.php&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/app/Models/Article.php&#10;web.&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/routes/web.php&#10;read&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/README.md&#10;composer&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/composer.json&#10;web.php&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/routes/web.php&#10;bootstrap/app&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/bootstrap/app.php&#10;illuminate/auth/EloquentUserProvider.php&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/vendor/illuminate/auth/EloquentUserProvider.php&#10;.EN&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/.env&#10;User.&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/app/Models/User.php&#10;en&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/.env&#10;jwt.php&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/vendor/tymon/jwt-auth/src/JWT.php&#10;Us&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/app/Models/User.php&#10;web.p&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/routes/web.php&#10;Authenticatable&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/vendor/illuminate/contracts/Auth/Authenticatable.php&#10;bootstrap/app.ph&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/bootstrap/app.php&#10;.en&#9;FILE&#9;file:///usr/local/nginx/html/vue/blog-api/.env" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5581ba37-f79a-4153-a006-d0996e41d46a" name="Default" comment="" />
+      <created>1535347998886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535347998886</updated>
+      <workItem from="1535348000256" duration="612000" />
+      <workItem from="1535348672018" duration="1381000" />
+      <workItem from="1535350173193" duration="10475000" />
+      <workItem from="1535367788850" duration="2000" />
+      <workItem from="1535453865345" duration="3759000" />
+      <workItem from="1535506274312" duration="17343000" />
+      <workItem from="1535545825755" duration="2944000" />
+      <workItem from="1536239627250" duration="350000" />
+      <workItem from="1536240042822" duration="2634000" />
+      <workItem from="1536284689599" duration="119000" />
+      <workItem from="1536299623356" duration="1368000" />
+      <workItem from="1537252437976" duration="1632000" />
+      <workItem from="1537258228127" duration="132000" />
+      <workItem from="1537259460392" duration="266000" />
+      <workItem from="1537260276898" duration="80000" />
+      <workItem from="1537261598016" duration="1581000" />
+      <workItem from="1537319182830" duration="570000" />
+      <workItem from="1539236518296" duration="3331000" />
+      <workItem from="1539307827919" duration="582000" />
+      <workItem from="1539568469616" duration="1260000" />
+      <workItem from="1539654070758" duration="8000" />
+      <workItem from="1539678919778" duration="445000" />
+      <workItem from="1539694460695" duration="2835000" />
+      <workItem from="1539740078483" duration="8000" />
+      <workItem from="1539914925266" duration="5162000" />
+      <workItem from="1540172118291" duration="6000" />
+      <workItem from="1540272694271" duration="4152000" />
+      <workItem from="1540344613960" duration="2371000" />
+      <workItem from="1540390799868" duration="431000" />
+      <workItem from="1540431204313" duration="398000" />
+      <workItem from="1540474873593" duration="752000" />
+      <workItem from="1540517874403" duration="9000" />
+      <workItem from="1540868348382" duration="912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="67910000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.701995" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.15164521" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.14020029" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.14306152" />
+      <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.14020029" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24727273" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/illuminate/contracts/Auth/Authenticatable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" />
+    <entry file="file://$PROJECT_DIR$/config/auth.php" />
+    <entry file="file://$PROJECT_DIR$/config/app.php" />
+    <entry file="file://$PROJECT_DIR$/app/User.php" />
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3969" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/apidoc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-598" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/apidoc/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="138" column="3" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/apidoc/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/PostTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/syf_article_tags.sql" />
+    <entry file="file://$USER_HOME$/Desktop/syf_tags.sql" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/CommentTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/dingo/api/config/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+            <element signature="e#118#157#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/ArticleTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/lumen.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="249">
+          <caret line="3985" selection-start-line="3985" selection-end-line="3985" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#135#171#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/ChangeLocale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" lean-forward="true" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/V1/TagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#6#93#0#PHP" expanded="true" />
+            <element signature="e#136#172#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/palanik/lumen-cors/LumenCors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/checkCors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckSign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/v1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="15" selection-start-column="15" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EN_README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="281">
+            <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apidoc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.php_cs.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.phplint.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
