@@ -34,7 +34,10 @@ class ArticleController extends Controller
     public function getArticleByCateId(Request $request)
     {
         $categoryId = $request->input('category_id', '');
-        $articles = Article::where('category_id', $categoryId)->orderBy('id', 'desc')->limit(40)->get();
+        $articles = Article::where('category_id', $categoryId)
+            ->select('articles.id', 'articles.title', 'articles.html', 'articles.click', 'c.category_name')
+            ->leftJoin('categories as c', 'c.id', '=', 'articles.category_id')
+            ->orderBy('id', 'desc')->limit(40)->get();
         return response()->json($articles, 200);
     }
 
