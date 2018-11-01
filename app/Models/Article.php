@@ -40,6 +40,7 @@ class Article extends Model
     public function getArticleById(int $articleId)
     {
         $data = self::find($articleId);
+        $data->increment('click');
         $articleTag = new ArticleTag();
         $tag = $articleTag->getTagNameByArticleIds([$articleId]);
         // 处理标签可能为空的情况
