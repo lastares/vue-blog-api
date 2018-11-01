@@ -19,6 +19,8 @@ class Article extends Model
     public function articleList(int $page, int $pagesize, $word = '')
     {
         $articles = $this
+            ->select('articles.id', 'articles.title', 'articles.html', 'articles.click', 'c.category_name')
+            ->leftJoin('categories as c', 'c.id', '=', 'articles.category_id')
             ->when(!empty($word), function ($query) use ($word) {
                 return $query->where('title', 'like', '%' . $word . '%');
             })

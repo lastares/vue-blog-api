@@ -13,7 +13,7 @@
 $api = app('Dingo\Api\Routing\Router');
 
 // v1 version API
-// add in header    Accept:application/vnd.lumen.v1+json
+// add in header    Accept:application/vnd.lumen.v1A+json
 $api->version('v1', [
     'namespace' => 'App\Http\Controllers\Api\V1',
     'middleware' => [
