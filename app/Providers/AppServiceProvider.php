@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Carbon\Carbon;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Events\QueryExecuted;
 
@@ -35,5 +36,9 @@ class AppServiceProvider extends ServiceProvider
                 \Log::info(vsprintf($sqlWithPlaceholders, array_map([$pdo, 'quote'], $bindings)));
             });
         }
+    }
+
+    public function boot() {
+        Carbon::setLocale('zh');
     }
 }

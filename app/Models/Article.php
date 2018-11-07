@@ -9,6 +9,7 @@
 namespace App\Models;
 
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Cache;
 
@@ -19,7 +20,7 @@ class Article extends Model
     public function articleList(int $page, int $pagesize, $word = '')
     {
         $articles = $this
-            ->select('articles.id', 'articles.title', 'articles.html', 'articles.click', 'c.category_name')
+            ->select('articles.id', 'articles.title', 'articles.html', 'articles.click', 'articles.created_at', 'c.category_name')
             ->leftJoin('categories as c', 'c.id', '=', 'articles.category_id')
             ->when(!empty($word), function ($query) use ($word) {
                 return $query->where('title', 'like', '%' . $word . '%');
@@ -28,6 +29,10 @@ class Article extends Model
             ->limit($pagesize)
             ->orderBy('id', 'desc')
             ->get();
+        foreach($articles as &$article) {
+            $createdAt = Carbon::parse($article->created_at)->toDateTimeString();
+            $article->insert_at = Carbon::parse($createdAt)->diffForHumans();
+        }
         return $articles;
     }
 
@@ -45,6 +50,8 @@ class Article extends Model
         $tag = $articleTag->getTagNameByArticleIds([$articleId]);
         // 处理标签可能为空的情况
         $data['tags'] = empty($tag) ? [] : current($tag);
+        $createdAt = Carbon::parse($data->created_at)->toDateTimeString();
+        $data->insert_at = Carbon::parse($createdAt)->diffForHumans();
         return $data;
     }
 
@@ -74,4 +81,13 @@ class Article extends Model
         $randomArticle = $this->whereIn('id', $randomArticleIds)->get();
         return $randomArticle;
     }
+
+//    public function getCreatedAtAttribute($date) {
+//        if (Carbon::now() > Carbon::parse($date)->addDays(15)) {
+//            return Carbon::parse($date);
+//        }
+//
+//        return Carbon::parse($date)->diffForHumans();
+//    }
+
 }

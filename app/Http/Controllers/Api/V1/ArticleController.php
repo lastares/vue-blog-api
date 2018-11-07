@@ -11,6 +11,7 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
 use App\Models\Article;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class ArticleController extends Controller
@@ -35,9 +36,13 @@ class ArticleController extends Controller
     {
         $categoryId = $request->input('category_id', '');
         $articles = Article::where('category_id', $categoryId)
-            ->select('articles.id', 'articles.title', 'articles.html', 'articles.click', 'c.category_name')
+            ->select('articles.id', 'articles.title', 'articles.html', 'articles.click', 'articles.created_at', 'c.category_name')
             ->leftJoin('categories as c', 'c.id', '=', 'articles.category_id')
-            ->orderBy('id', 'desc')->limit(40)->get();
+            ->orderBy('articles.id', 'desc')->limit(40)->get();
+        foreach ($articles as &$article) {
+            $createdAt = Carbon::parse($article->created_at)->toDateTimeString();
+            $article->insert_at = Carbon::parse($createdAt)->diffForHumans();
+        }
         return response()->json($articles, 200);
     }
 
